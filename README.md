@@ -23,4 +23,4 @@ Execute `npm start` e abra [http://localhost:3000](http://localhost:3000) para v
 
 ## PREVIEW:
  #### - HOME
-![image](https://user-images.githubusercontent.com/89668742/156704848-3c9c78c3-e449-4fed-8e25-e86cf749a749.png)
+![hackathon](https://user-images.githubusercontent.com/83619345/204355461-6fb1b8f8-df4a-4d71-b2c0-3958f6e2dad4.png))
