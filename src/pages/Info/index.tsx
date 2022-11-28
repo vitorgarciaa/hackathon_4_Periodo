@@ -3,7 +3,7 @@ export const Info = () => {
    
     // Exibição da apresentação
     return (
-        <div className='container'>
+        <div className='container' style ={{'height': '88vh'}}>
             <h1>Bem Vindo!!</h1>
 
 
@@ -22,6 +22,7 @@ export const Info = () => {
         <h3>Clique no botao abaixo para ser redirecionado!</h3>
             
                <Link to="/home" className='btn btn-primary'>Sistema</Link>
+              
 
              
         </div>
