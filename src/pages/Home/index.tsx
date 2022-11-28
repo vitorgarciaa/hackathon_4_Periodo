@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { api } from '../../services/api';
 import { Comics } from '../../components/Comics/index';
 import * as C from './styles';
+import { Link } from 'react-router-dom';
 
 export const Home = () => {
     const [ComicList, setComicList] = useState<ComicType[]>([]);
@@ -31,7 +32,7 @@ export const Home = () => {
                     price={item.price}
                     raro={false}
                     item={item} />
-            ))}
+            ))}                  
         </C.Container>
     );
 

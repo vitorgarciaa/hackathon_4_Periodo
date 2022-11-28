@@ -25,7 +25,8 @@ export const ComicInfoItem = ({ title, thumbnail, price, item }: Props) => {
             <C.ContainerItem>
                 <h1>{title}</h1>
                 <p>Disponibilidade: Em falta</p>
-                <p>R$ {price}</p>
+                <p className='mt-4'>R$ {price}</p>
+                <Link to="/home" className='btn btn-primary'>Voltar</Link>
             </C.ContainerItem>
         </C.Container>
     );
